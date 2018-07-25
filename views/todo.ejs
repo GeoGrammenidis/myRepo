@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Testing</title>
+		<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<form method>
+			<input type="text" placeholder="type here" />
+			<input type="submit" />
+		</form>
+		<ul>
+			<% for(var i=0;i<todos.length;i++){%>
+			<li> <%= todos[i].item %></li>
+			<% } %>
+		</ul>
+		<script src="/assets/todo-script.js"></script>
+	</body>
+</html>
